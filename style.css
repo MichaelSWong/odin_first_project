@@ -1,0 +1,151 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #E5E7EB;
+    margin-left: 160px;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+    margin-right: 160px;
+}
+
+a {
+    font-size: 16px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    flex-shrink: 0;
+    padding-top: 16px;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: 900;
+}
+.secondary-text {
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+.image {
+    display: flex;
+    width: 500px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    margin-left: 160px;
+    flex-wrap: wrap;
+    width: 500px;
+    padding: 16px;
+    gap: 16px
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    padding: 16px;
+
+}
+.subtext {
+    width: 200px;
+}
+
+.box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.third-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.sub-section {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.quote {
+    align-items: right;
+    justify-content: center;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    padding: 48px;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+}
